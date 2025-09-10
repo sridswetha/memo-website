@@ -18,7 +18,7 @@ export default function Home() {
         </div>
 
         {/* Banner Content Overlay */}
-<div className="relative z-10 flex flex-col items-start justify-center h-full px-[70px] space-y-6">
+        <div className="relative z-10 flex flex-col items-start justify-center h-full px-[70px] space-y-6">
           {/* Main Title */}
           <h1 
             className="text-[#FBFDFF] text-[60px] md:text-[80px] lg:text-[120px] xl:text-8xl text-center tracking-wider "
