@@ -12,7 +12,7 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       href: 'https://www.linkedin.com/company/memoumd',
-      icon: '/Linkedin.png',
+      icon: '/LinkedIn.png',
       alt: 'LinkedIn'
     },
     {
