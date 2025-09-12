@@ -23,7 +23,7 @@ const FlipCard = ({ name, position, bio, major, imageUrl, pronouns, hobbies, cla
       >
         {/* Front */}
         <div 
-          className="absolute inset-0 bg-[#0E1E3D] rounded-lg shadow-lg flex flex-col items-center p-4"
+          className="absolute inset-0 bg-[#834A4F] rounded-lg shadow-lg flex flex-col items-center p-4"
           style={{ backfaceVisibility: 'hidden' }}
         >
           {/* Name on top */}
@@ -54,7 +54,7 @@ const FlipCard = ({ name, position, bio, major, imageUrl, pronouns, hobbies, cla
 
         {/* Back */}
         <div 
-          className="absolute inset-0 bg-[#0E1E3D] rounded-lg p-4 shadow-lg flex items-center justify-center"
+          className="absolute inset-0 bg-[#834A4F] rounded-lg p-4 shadow-lg flex items-center justify-center"
           style={{ 
             backfaceVisibility: 'hidden',
             transform: 'rotateY(180deg)'

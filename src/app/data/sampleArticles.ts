@@ -6,9 +6,26 @@ export const sampleArticles: Article[] = [
     title: 'Mind the Cuts: Why Funding for Mental Health Research is Important',
     author: 'Siya Kothale',
     publicationDate: '2025-09-10',
-    image: '/Sunset.png', // Replace with actual article images
+    image: '/mind-the-cuts.png', // Replace with actual article images
     categoryTag: 'current issues',
-    content: `Are you stressed about upcoming due dates and exams? Struggling with not getting enough sleep, experiencing anxiety, or even feeling burnt out? You are not alone. As of late,  many college students have been experiencing mental health-related difficulties. According to a 2020 review conducted by Dr. Kang and his colleagues, there has been an alarming rate of mental health disorders among undergraduate students1. They found that 19% to 48% of students have eating disorders, 22% have depression, and 9.4% to 36% have sleep disorders1. These may seem like numbers to you, but behind every number is a classmate, friend, or coworker who is struggling to manage all the responsibilities of being a student in this modern world. These numbers are what help college officials recognize the need for mental health services, and plan to provide them for their students. However, we are facing major budget cuts on research initiatives that not only help us recognize the need for services, but also initiatives that aim to create new therapies, medications or programs.`,
+    content: `Are you stressed about upcoming due dates and exams? Struggling with not getting enough sleep, experiencing anxiety, or even feeling burnt out? You are not alone. As of late,  many college students have been experiencing mental health-related difficulties. According to a 2020 review conducted by Dr. Kang and his colleagues, there has been an alarming rate of mental health disorders among undergraduate students [1]. They found that 19% to 48% of students have eating disorders, 22% have depression, and 9.4% to 36% have sleep disorders [1]. These may seem like numbers to you, but behind every number is a classmate, friend, or coworker who is struggling to manage all the responsibilities of being a student in this modern world. These numbers help college officials recognize the need for mental health services and plan to provide them for their students. However, we are facing major budget cuts on research initiatives that not only help us recognize the need for services, but also initiatives that aim to create new therapies, medications, or programs.
+
+The various services that the University of Maryland (UMD) offers, including the on-site psychiatrist, medication management, and peer-led workshops, did not appear out of nowhere. These services were established in response to the school's research, which revealed an increased need for them. In fact, in 2022, UMD formed a task force dedicated to determining the need for mental health support services among staff and students [2]. Moreover, the UMD counseling center conducts an annual report to provide comprehensive statistics and findings about its achievements and the research unit’s findings. UMD’s ability to provide its services is also dependent on research, since scientists are behind each method, conducting tests and inspections to ensure they are effective and efficient. Without the allocated funds, the progress toward new interventions and methods is slowed down, leaving the students with a limited number of options to seek help from and longer wait times. Over time, students can face many detrimental implications for many staff members, students, and families, such as higher dropout rates due to burnout and stress, health costs, and loss of motivation.
+
+Budget cuts don’t just affect large institutions like UMD or the NIH; the impact goes deeper than that. With fewer projects funded by the government, there are even fewer opportunities for students to get involved in research labs. Gaining experience as a student is an important part of modern academia, and with the growing rates of people seeking a higher education [3], opportunities to gain experience are in high demand. This is even more harmful for students working towards careers in medicine, psychology, or public health.
+
+	Unfortunately, it is going to take more than just the public’s attention to help resolve this issue. However, there are things you could be doing right now to fight against the consequences of budget cuts to mental health research. Firstly, stay informed about the current events surrounding research funding and how it impacts you. Second, make sure to speak up when you have the chance; this could look like voting, signing petitions, or even just spreading the news. Lastly, join groups like UMD MEMO and NAMI, whose goal is to raise awareness of resources and reduce the stigma around mental health. 
+
+	
+
+
+References: 
+
+[1] Kang, H. K., Rhodes, C., Rivers, E., Thornton, C. P., & Rodney, T. (2020). Prevalence of Mental Health Disorders Among Undergraduate University Students in the United States: A Review. Journal of Psychosocial Nursing and Mental Health Services, 59(2). https://doi.org/10.3928/02793695-20201104-03
+
+[2] UMD Increases Mental Health, Wellness Services. (2024, September 5). Maryland Today. https://today.umd.edu/umd-increases-mental-health-wellness-services
+
+[3]‌ National Student Clearinghouse Research Center. (2025, May 22). Current Term Enrollment Estimates. National Student Clearinghouse Research Center. https://nscresearchcenter.org/current-term-enrollment-estimates/`,
     contentType: 'text'
   },
   {
@@ -19,12 +36,12 @@ export const sampleArticles: Article[] = [
     image: '/Sunset.png',
     categoryTag: 'creative works',
     content: `Mama, how am I supposed to tell you 
-what plagues my mind day in and out,
+What plagues my mind day in and out,
 When you look at me with such sad eyes?
 I know you’re trying your best. Trying to understand
 I know this is new for you. Or maybe it isn’t. 
 Maybe you’ve felt the same as me, 
-but there wasn’t a name for it.
+But there wasn’t a name for it.
 
 Mama, you blessed me with the gift of life, 
 So how do I tell you that I feel it withering away? 
@@ -45,7 +62,7 @@ What did you do?
 Mama, I know you can’t tell me. I know there’s no single answer.
 Even if it came from you, this life is mine alone. 
 But I hate being alone. I really do. 
-Though, your presence is there. Are my weepy? eyes
+Though, your presence is there. Are my sad eyes
 The same as yours? You can’t catch me as I fall,
 But you’re there to hold me as I go
 
@@ -59,10 +76,13 @@ And you have laid there low. I wonder for how long.
 What lingers for you? What pains you?
 I wonder if it’s the same for me.
 
-Mama, what consumes my mind, I bet it’s consumed yours too
-But thank you, because at least your arms are open for me. 
-Maybe they’re open because you’ve felt this way too, 
-But there just wasn’t a name for it.", // For art pieces, this would be the path to the artwork`,
+Mama, what consumes my mind, I bet it’s 
+consumed yours too,
+But thank you, because at least your arms 
+Are open for me. 
+Maybe they’re open because 
+You've felt this way too, 
+But there just wasn’t a name for it.`, // For art pieces, this would be the path to the artwork,
     contentType: 'text'
   },
   {
@@ -93,7 +113,7 @@ So I went to class and raised my hand to speak. In my head thinking, if I keep m
   },
   {
     id: '4',
-    title: 'Return to Offic: How Work-Life Balance Has Been Impacted',
+    title: 'Return to Office: How Work-Life Balance Has Been Impacted',
     author: 'Gavin Neubauer',
     publicationDate: '2025-09-10',
     image: '/Sunset.png',
@@ -118,7 +138,7 @@ What kind of system do you hope is in place for your next job?`,
     publicationDate: '2025-09-01',
     image: '/Sunset.png',
     categoryTag: 'creative works',
-    content: '/Sunset.png',
-    contentType: 'image'
+    content: 'insert description here',
+    contentType: 'text'
   }
 ];
