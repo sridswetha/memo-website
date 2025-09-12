@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="px-4 sm:px-6 md:px-25 py-20 sm:py-24 md:py-30" style={{ backgroundColor: '#DBF9FF' }}>
       <h1
-        className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[150px] font-bold text-[#4C3442] tracking-wider flex justify-center mb-8 sm:mb-12"
+        className="text-6xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[150px] font-bold text-[#4C3442] tracking-wider flex justify-center mb-8 sm:mb-12"
         style={{
           fontFamily: 'UpheavalTT, Arial, sans-serif',
           textShadow: '2px 2px 6px rgba(0,0,0,0.3)'
