@@ -30,7 +30,7 @@ References:
   },
   {
     id: '2',
-    title: 'Maybe you’ve felt the same as me, but there wasn’t a name for it.',
+    title: 'Mama',
     author: 'Autumn Brooks',
     publicationDate: '2025-09-10',
     image: '/Sunset.png',
@@ -90,7 +90,7 @@ But there just wasn’t a name for it.`, // For art pieces, this would be the pa
     title: 'Through Your Eyes',
     author: 'Ariyana Brittingham',
     publicationDate: '2025-09-10',
-    image: '/Sunset.png',
+    image: '/through-your-eyes.png',
     categoryTag: 'anecdotal',
     content: `I was born with the same brown eyes as my mothers. Not hazel, but the kind of brown that met sunlight at its door and would warm a room. The thing about my eyes is they were trusted. Like a secret, they would sometimes reveal a part of myself otherwise kept a mystery. But they also commanded attention. They were wide and big. As my mother would describe them, they were her “beautiful, brown eyes.” Anyone could feel their glare, and it might have frightened them. I did not mind for a while. 
 
@@ -113,7 +113,7 @@ So I went to class and raised my hand to speak. In my head thinking, if I keep m
   },
   {
     id: '4',
-    title: 'Return to Office: How Work-Life Balance Has Been Impacted',
+    title: 'Back, but Not Better',
     author: 'Gavin Neubauer',
     publicationDate: '2025-09-10',
     image: '/Sunset.png',
@@ -133,12 +133,21 @@ What kind of system do you hope is in place for your next job?`,
   },
   {
     id: '5',
-    title: 'The Future of Remote Work',
+    title: 'Torn Between. (2023)',
     author: 'Vivian Jiang',
     publicationDate: '2025-09-01',
-    image: '/Sunset.png',
+    image: '/torn-between.png',
     categoryTag: 'creative works',
-    content: 'insert description here',
+    content: 
+  `
+  Torn Between. (2023)
+
+18x24”
+Gouache, acrylic paint, yarn on canvas. Watercolor paint, ink on watercolor paper.
+
+The divisive psychology of first-generation and second-generation immigration. Being surrounded by both cultures at all fronts leaves a disconnection from the motherland that we have never been to. The stories told were often misconstrued by our American perception of our own countries, yet the first-generation immigrants had the privilege of never falling for its propaganda—yet. The painting is a reflection of the second-generation immigrant as a child, unsure about their own culture as they yearn for their mother's culture yet seemingly separated by a fine line, to only witness what America has to offer.
+  `
+  ,
     contentType: 'text'
   }
 ];
