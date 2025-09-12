@@ -21,7 +21,7 @@ export default function Home() {
         {/* Banner Content Overlay */}
         <div className="relative z-10 flex items-center justify-center h-full px-2 sm:px-4">
           <h1
-            className="text-[#FBFDFF] text-[32px] xs:text-[40px] sm:text-[50px] md:text-[70px] lg:text-[100px] xl:text-[120px] text-center tracking-wider leading-tight"
+            className="text-[#FBFDFF] text-[45px] xs:text-[45px] sm:text-[50px] md:text-[70px] lg:text-[120px] xl:text-[120px] text-center tracking-wider leading-tight"
             style={{
               fontFamily: "UpheavalTT, Arial, sans-serif",
               textShadow: "4px 4px 15px rgba(0,0,0,0.8)",
