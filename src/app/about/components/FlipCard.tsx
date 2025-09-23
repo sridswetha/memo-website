@@ -44,7 +44,7 @@ const FlipCard: React.FC<FlipCardProps> = ({
       >
         {/* Front */}
         <div
-          className="absolute inset-0 bg-[#834A4F] rounded-lg shadow-lg flex flex-col items-center justify-center px-4"
+          className="absolute inset-0 bg-[#834A4F] rounded-lg shadow-lg flex flex-col items-center p-4"
           style={{ backfaceVisibility: 'hidden' }}
         >
           {/* Position */}
@@ -52,7 +52,7 @@ const FlipCard: React.FC<FlipCardProps> = ({
             className="text-white text-xl font-semibold text-center mb-2 tracking-wider"
             style={{
               fontFamily: 'UpheavalTT, Arial, sans-serif',
-              fontSize: '27px',
+              fontSize: '25px',
             }}
           >
             {position}
@@ -75,7 +75,7 @@ const FlipCard: React.FC<FlipCardProps> = ({
           </div>
 
           {/* Info */}
-          <div className="flex flex-col items-center text-center space-y-1">
+          <div className="flex flex-col items-center text-center space-y-1 flex-grow">
             <p className="text-white font-medium font-montserrat font-semibold">
               {name}
             </p>
@@ -83,7 +83,7 @@ const FlipCard: React.FC<FlipCardProps> = ({
               <p className="text-white text-sm font-montserrat">{pronouns}</p>
             )}
             {major && (
-              <p className="text-white text-sm font-montserrat">{major}</p>
+              <p className="text-white text-sm font-montserrat ">{major}</p>
             )}
             {hobbies && (
               <p className="text-white text-sm break-words text-center font-montserrat">
@@ -92,7 +92,6 @@ const FlipCard: React.FC<FlipCardProps> = ({
             )}
           </div>
         </div>
-
 
         {/* Back */}
         <div
