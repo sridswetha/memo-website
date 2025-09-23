@@ -95,10 +95,10 @@ const ArticleTile = ({ article }: ArticleTileProps) => {
         {/* Article Info */}
         <div className="relative p-3 sm:p-4 h-2/5 flex flex-col justify-between">
           <div>
-            <h3 className="font-montserrat font-extrabold text-[30px] sm:text-[22px] md:text-[25px] mb-1 line-clamp-3 text-gray-800 leading-tight">
+            <h3 className="font-montserrat font-extrabold text-[20px] xs:text-[22px] md:text-[30px] mb-1 line-clamp-2 sm:line-clamp-3 text-gray-800 leading-tight">
               {article.title}
             </h3>
-            <p className="absolute left-3 bottom-3 sm:left-4 sm:bottom-4 font-montserrat font-bold text-[16px] sm:text-[14px] md:text-[16px] text-gray-600">
+            <p className="absolute left-3 bottom-3 sm:left-4 sm:bottom-4 font-montserrat font-bold text-[10px] sm:text-[14px] md:text-[16px] text-gray-600">
               {article.author.toUpperCase()}
             </p>
           </div>

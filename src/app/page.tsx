@@ -43,7 +43,7 @@ export default function Home() {
 
         {/* Article Tiles Grid */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {sampleArticles.map((article) => (
               <ArticleTile key={article.id} article={article} />
             ))}
