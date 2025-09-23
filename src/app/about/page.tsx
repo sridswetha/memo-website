@@ -18,8 +18,8 @@ export default function About() {
           position="President"
           bio="Growing up, mental health has always been stigmatized and I would love to give everyone the chance to say something about their own experiences with it! Everything intersects with mental health, and vice versa."
           pronouns="She/Her"
-          major="Psychology Major, 2026"
-          hobbies="Mediums of Expression: Painting, sketching, and planning composition"
+          major="B.S. in Psychology, 2026"
+          hobbies="I tend to paint & sketch, but primarily I love to plan the paintings through composition, research, and a lot of reflection."
           imageUrl="/people/bibian.png"
           className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
         />
@@ -30,28 +30,18 @@ export default function About() {
           imageUrl="/people/siya.jpg"
           className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
           pronouns="She/Her"
-          hobbies="Mediums of Expression: Books amd meaningful conversations"
-          major="Neuroscience & Human Development Major, 2027"
+          hobbies="I enjoy finding books to read that invoke meaningful conversations between my friends and I."
+          major="B.S. in Neuroscience and Human Development, 2027"
         />
         <FlipCard
           name="Gavin Neubauer"
           position="Treasurer"
           bio="Mental health has been a central issue through my work in politics and legislation. I've assisted many people throughout Maryland facing these issues and helped them to get back on their feet through crises."
           imageUrl="/people/gavin.jpg"
-          major="Public Policy Major & Chinese Language Minor, 2026"
+          major="B.A. in Public Policy, Minor in Chinese Language, 2026"
           pronouns="He/Him"
-          hobbies="Mediums of Expression: Op-Ed pieces, poetry, and short (sometimes longer) stories."
+          hobbies="I like to express myself in the Op-Ed format, following my passion for policy, politics, and writing. Other than that, I like to write poetry and short (sometimes longer) stories."
           className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
-        />
-        <FlipCard
-          name="Tulika Kumar"
-          position="Secretary"
-          bio="Mental health advocacy has always been relevant and crucial in my life. For as long as I can remember, mental health has been the issue I have stood for the most passionately. I feel rewarded by giving back in this space (for example, I volunteer for the National Crisis Text Line), and I’m excited to make a difference for students on our campus through MEMO."
-          imageUrl="/people/tulika.png"
-          className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
-          pronouns="She/Her"
-          hobbies="Mediums of Expression: Speech and writing"
-          major="Computer Science Major & Business Minor, 2026"
         />
         <FlipCard
           name="Autumn Brooks"
@@ -60,8 +50,8 @@ export default function About() {
           imageUrl="/people/autumn.jpg"
           className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
           pronouns="She/Her"
-          hobbies="Mediums of Expression: Literary reviews, analyses, and social media writing"
-          major="English Major & Professional Writing Minor, 2027"
+          hobbies="I enjoy writing up literary reviews and analyses. A few years ago, I had a social media account where I posted my ramblings and was surprised to find out others enjoyed them too."
+          major="B.A. in English/Minor in Professional Writing, 2027"
         />
         <FlipCard
           name="Ariyana Brittingham"
@@ -70,8 +60,8 @@ export default function About() {
           imageUrl="/people/ariyana.jpg"
           className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
           pronouns="She/Her"
-          hobbies="Mediums of Expression: Creative writing pieces and journaling"
-          major="English Major & Professional Writing Minor, 2027"
+          hobbies="I like to express myself through creative writing pieces or journaling. I tend to journal about potential story ideas or yap about any and everything."
+          major="English and Professional Writing Minor, 2027"
         />
         <FlipCard
           name="Mahita Kamalahasan"
@@ -80,7 +70,7 @@ export default function About() {
           imageUrl="/people/mahieh.png"
           className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
           pronouns="She/Her"
-          hobbies="Mediums of Expression: Dance, photography, and painting"
+          hobbies="I love dancing through all my different moods and trying out creative photography project ideas"
           major="Computer Science Major & Sociology Minor, 2027"
         />
         <FlipCard
@@ -90,8 +80,8 @@ export default function About() {
           imageUrl="/people/swetha.jpeg"
           className="w-full sm:w-[45%] lg:w-[30%] min-w-[280px] max-w-[350px]"
           pronouns="She/Her"
-          hobbies="Mediums of Expression: Music, dance, and anything artsy."
-          major="Computer Science Major & Linguistics Minor, 2026"
+          hobbies="Music, dance, anything artsy."
+          major="Computer Science Major & Linguistics, 2026"
         />
       </div>
     </div>
