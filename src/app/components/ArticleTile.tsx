@@ -87,7 +87,7 @@ const ArticleTile = ({ article }: ArticleTileProps) => {
           {/* Category Tag */}
           <div className="absolute top-0.5 right-[30px] sm:top-2.5 sm:right-[50px]">
             <span className={`${getCategoryColor(article.categoryTag)} font-montserrat font-semibold text-[8px] sm:text-[10px] text-white px-1.5 py-1 sm:px-2.5 sm:py-1.5 rounded-full uppercase`}>
-              â¦¿ {article.categoryTag}
+              ⦿ {article.categoryTag}
             </span>
           </div>
         </div>
