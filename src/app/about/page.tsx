@@ -11,6 +11,14 @@ export default function About() {
       >
         About
       </h1>
+        <h3
+  className="text-2xl mt-4 text-center font-montserrat leading-relaxed border-2 border-[#0E1E3D] p-6 rounded-xl bg-[#BAE3FF] shadow-md"
+        style={{
+          color: "#0E1E3D",
+        }}
+      >
+      M.E.M.O is a community built to empower minority students by promoting mental health awareness and breaking stigma within BIPOC spaces. We create a safe, supportive environment where students can openly explore their well-being and connect with others who share similar experiences. Through meaningful discussions, movie nights, workshops, and other interactive events, we aim to bring advocacy to life in ways that are both educational and fun. Our mission is simple: to uplift, educate, and cultivate a campus culture where every student feels seen, supported, and encouraged to prioritize their mental health.
+        </h3>
       
       <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 py-6 sm:py-8 md:py-12">
         <FlipCard
