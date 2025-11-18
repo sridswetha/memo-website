@@ -6,18 +6,18 @@ export default function About() {
   return (
     <div className="px-4 sm:px-6 md:px-25 py-20 sm:py-24 md:py-30" style={{ backgroundColor: '#DBF9FF', textShadow: '2px 2px 6px rgba(0,0,0,0.3)' }}>
       <h1 
-        className="text-7xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[150px] font-bold text-[#4C3442] tracking-wider flex justify-center mb-8 sm:mb-12" 
+        className="text-7xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[150px] font-bold text-[#3b0d37] tracking-wider flex justify-center " 
         style={{ fontFamily: 'UpheavalTT, Arial, sans-serif' }}
       >
         About
       </h1>
         <h3
-  className="text-2xl mt-4 text-center font-montserrat leading-relaxed border-2 border-[#0E1E3D] p-6 rounded-xl bg-[#BAE3FF] shadow-md"
+  className="text-2xl mt-4 text-center font-montserrat font-bold leading-relaxed  p-6 rounded-xl bg-[#8AA7B2]"
         style={{
-          color: "#0E1E3D",
+          color: 'white',
         }}
       >
-      M.E.M.O is a community built to empower minority students by promoting mental health awareness and breaking stigma within BIPOC spaces. We create a safe, supportive environment where students can openly explore their well-being and connect with others who share similar experiences. Through meaningful discussions, movie nights, workshops, and other interactive events, we aim to bring advocacy to life in ways that are both educational and fun. Our mission is simple: to uplift, educate, and cultivate a campus culture where every student feels seen, supported, and encouraged to prioritize their mental health.
+      M.E.M.O empowers minority students by promoting mental health awareness and reducing stigma in BIPOC spaces. We create a safe, supportive space for students to explore their well-being and connect with others who share similar experiences. Through discussions, movie nights, workshops, and more, we make advocacy engaging and accessible. Our mission is simple: uplift, educate, and build a campus culture where every student feels seen, supported, and encouraged to prioritize their mental health.
         </h3>
       
       <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 py-6 sm:py-8 md:py-12">

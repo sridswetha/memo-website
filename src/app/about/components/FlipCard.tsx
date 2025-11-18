@@ -44,7 +44,7 @@ const FlipCard: React.FC<FlipCardProps> = ({
       >
         {/* Front */}
         <div
-          className="absolute inset-0 bg-[#834A4F] rounded-lg shadow-lg flex flex-col items-center justify-center px-4"
+          className="absolute inset-0 bg-[#3b0d37] rounded-lg shadow-lg flex flex-col items-center justify-center px-4"
           style={{ backfaceVisibility: 'hidden' }}
         >
           {/* Position */}

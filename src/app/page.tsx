@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-[#DBF9FF] min-h-screen">
       {/* Hero Banner Section */}
-      <section className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+      <section className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[550px] overflow-hidden">
         {/* Banner Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -43,16 +43,16 @@ export default function Home() {
       </section>
 
       {/* Latest Section */}
-      <section className="py-6 sm:py-8">
+        <section className="pt-0 pb-4 sm:pt-0 sm:pb-6">
         <h2
-          className="font-montserrat font-black underline text-[32px] sm:text-[40px] md:text-[50px] mb-6 sm:mb-8 text-center px-4"
-          style={{ color: "#4C3442" }}
+          className="font-montserrat font-black underline text-[36px] sm:text-[44px] md:text-[56px] mb-6 sm:mb-8 text-center px-4"
+          style={{ color: "#3b0d37" }}
         >
-          LATEST
+          CURRENT ISSUES 
         </h2>
 
         {/* Article Tiles Grid */}
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6" >
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {sampleArticles.map((article) => (
               <ArticleTile key={article.id} article={article} />
