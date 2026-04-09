@@ -2,6 +2,8 @@
 
 import Image from 'next/image';
 import { Article } from './ArticleTile';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 interface ArticlePageProps {
   article: Article;
@@ -29,11 +31,10 @@ const ArticlePage = ({ article }: ArticlePageProps) => {
             {article.title.toUpperCase()}
           </h1>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4 text-base sm:text-lg text-gray-700 px-4">
+          <div className="flex flex-col items-center justify-center space-y-2 text-base sm:text-lg text-gray-700 px-4">
             <span className="font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
               {article.author.toUpperCase()}
             </span>
-            <span className="hidden sm:inline">|</span>
             <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
               {formatDate(article.publicationDate)}
             </span>
@@ -52,7 +53,7 @@ const ArticlePage = ({ article }: ArticlePageProps) => {
               alt="Article"
               width={1200}
               height={600}
-              className="w-full h-auto rounded-lg shadow-md"
+              className="max-w-lg mx-auto w-full h-80 object-cover rounded-lg shadow-md"
               priority
             />
           </div>
@@ -71,21 +72,26 @@ const ArticlePage = ({ article }: ArticlePageProps) => {
               </div>
             </div>
           ) : (
-            // Text Article Display
-            <div 
-              className="prose max-w-none text-gray-800 leading-relaxed"
-              style={{ fontFamily: 'Montserrat, sans-serif' }}
+            // Text/Markdown Article Display
+            <div
+            className="prose prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 max-w-none text-gray-800 leading-relaxed"              style={{ fontFamily: 'Montserrat, sans-serif' }}
             >
-              {article.content.split('\n\n').map((paragraph, pIndex) => (
-                <p key={pIndex} className="mb-4 sm:mb-6 text-sm sm:text-base leading-6 sm:leading-7">
-                  {paragraph.split('\n').map((line, lIndex) => (
-                    <span key={lIndex}>
-                      {line.trim()}
-                      {lIndex < paragraph.split('\n').length - 1 && <br />}
-                    </span>
-                  ))}
-                </p>
-              ))}
+              {article.contentType === 'markdown' ? (
+                <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+                  {article.content}
+                </ReactMarkdown>
+              ) : (
+                article.content.split('\n\n').map((paragraph, pIndex) => (
+                  <p key={pIndex} className="mb-4 sm:mb-6 text-sm sm:text-base leading-6 sm:leading-7">
+                    {paragraph.split('\n').map((line, lIndex) => (
+                      <span key={lIndex}>
+                        {line.trim()}
+                        {lIndex < paragraph.split('\n').length - 1 && <br />}
+                      </span>
+                    ))}
+                  </p>
+                ))
+              )}
             </div>
           )}
         </article>

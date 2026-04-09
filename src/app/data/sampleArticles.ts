@@ -1,8 +1,20 @@
+// sampleArticles.ts
 import { Article } from '../components/ArticleTile';
-
+import wgss from './wgss.md?raw';
 export const sampleArticles: Article[] = [
   {
     id: '1',
+    title: 'Breaking the Binary: Making Bathrooms Period-Friendly for Everyone',
+    author: 'Annalise Aaron  |  Mahita Kamalahasan |  Alessandra Kim | Prishasai Ramnath |  Swetha Sridaran',
+    publicationDate: '2026-04-09',
+    image: '/candid.jpg',
+    categoryTag: 'current issues',
+    content: wgss,
+    contentType: 'markdown'  
+  },
+  
+  {
+    id: '2',
     title: 'Mind the Cuts: Why Funding for Mental Health Research is Important',
     author: 'Siya Kothale',
     publicationDate: '2025-09-10',
@@ -28,8 +40,9 @@ References:
 [3]‌ National Student Clearinghouse Research Center. (2025, May 22). Current Term Enrollment Estimates. National Student Clearinghouse Research Center. https://nscresearchcenter.org/current-term-enrollment-estimates/`,
     contentType: 'text'
   },
+
   {
-    id: '2',
+    id: '3',
     title: 'Mama',
     author: 'Autumn Brooks',
     publicationDate: '2025-09-10',
@@ -86,7 +99,7 @@ But there just wasn’t a name for it.`, // For art pieces, this would be the pa
     contentType: 'text'
   },
   {
-    id: '3',
+    id: '4',
     title: 'Through Your Eyes',
     author: 'Ariyana Brittingham',
     publicationDate: '2025-09-10',
@@ -112,7 +125,7 @@ So I went to class and raised my hand to speak. In my head thinking, if I keep m
     contentType: 'text'
   },
   {
-    id: '4',
+    id: '5',
     title: 'Back, but Not Better',
     author: 'Gavin Neubauer',
     publicationDate: '2025-09-10',
@@ -132,7 +145,7 @@ What kind of system do you hope is in place for your next job?`,
     contentType: 'text'
   },
   {
-    id: '5',
+    id: '6',
     title: 'Torn Between. (2023)',
     author: 'Vivian Jiang',
     publicationDate: '2025-09-01',

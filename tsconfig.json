@@ -1,11 +1,8 @@
+// tsconfig.json
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -17,25 +14,17 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "baseUrl": ".",
+    "plugins": [{ "name": "next" }],
+    "baseUrl": "src",               // ← set baseUrl to src for cleaner imports
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["*"]                 // <- maps @/something -> src/something
     }
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "src/**/*.ts",                  // <- explicitly include src
+    "src/**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

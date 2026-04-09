@@ -1,3 +1,4 @@
+//articletile.tsx
 'use client';
 
 import Link from 'next/link';
@@ -11,7 +12,7 @@ export interface Article {
   image: string;
   categoryTag: 'current issues' | 'anecdotal' | 'career' | 'creative works';
   content: string; // Can be text content or image path for art pieces
-  contentType: 'text' | 'image'; // To distinguish between articles and art pieces
+  contentType: 'text' | 'image' | 'markdown'; // To distinguish between articles and art pieces
 }
 
 interface ArticleTileProps {
@@ -98,8 +99,7 @@ const ArticleTile = ({ article }: ArticleTileProps) => {
             <h3 className="font-montserrat font-extrabold text-[20px] xs:text-[22px] md:text-[30px] mb-1 line-clamp-2 sm:line-clamp-3 text-gray-800 leading-tight">
               {article.title}
             </h3>
-            <p className="absolute left-3 bottom-3 sm:left-4 sm:bottom-4 font-montserrat font-bold text-[10px] sm:text-[14px] md:text-[16px] text-gray-600">
-              {article.author.toUpperCase()}
+              <p className="absolute left-3 bottom-3 sm:left-4 sm:bottom-4 font-montserrat font-bold text-[10px] sm:text-[14px] md:text-[16px] text-gray-600 truncate max-w-[70%]">              {article.author.toUpperCase()}
             </p>
           </div>
 
