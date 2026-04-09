@@ -12,7 +12,9 @@ const Navbar = () => {
   const navItems = [
     { name: 'HOME', href: '/' },
     { name: 'ABOUT', href: '/about' },
+    { name: 'RESOURCES', href: '/resources' },
     { name: 'CONTACT US', href: '/contact' }
+
   ];
 
   const isActive = (href: string) => {

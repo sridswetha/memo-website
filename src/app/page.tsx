@@ -19,26 +19,25 @@ export default function Home() {
         </div>
 
         {/* Banner Content Overlay */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full px-2 sm:px-4">
-          <h1
-            className="text-[#FBFDFF] text-[45px] xs:text-[45px] sm:text-[50px] md:text-[70px] lg:text-[120px] xl:text-[120px] text-center tracking-wider leading-tight"
-            style={{
-              fontFamily: "UpheavalTT, Arial, sans-serif",
-              textShadow: "4px 4px 15px rgba(0,0,0,0.8)",
-            }}
-          >
-            GET THE M.E.M.O
-          </h1>
-          <h2
-            className="text-white text-3xl mt-4"
-            style={{
-              fontFamily: "UpheavalTT, Arial, sans-serif",
-              textShadow: "4px 4px 15px rgba(0,0,0,0.8)",
-              
-            }}
-          >
-          From your friendly neighborhood Multi-Ethnic Mental Health Organization✧
-           </h2>
+        <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-8 text-center">
+        <h1
+          className="text-[#FBFDFF] text-[45px] sm:text-[50px] md:text-[70px] lg:text-[120px] xl:text-[120px] tracking-wider leading-tight"
+          style={{
+            fontFamily: "UpheavalTT, Arial, sans-serif",
+            textShadow: "4px 4px 15px rgba(0,0,0,0.8)",
+          }}
+        >
+          GET THE M.E.M.O
+        </h1>
+        <h2
+          className="text-white text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-4 max-w-3xl"
+          style={{
+            fontFamily: "UpheavalTT, Arial, sans-serif",
+            textShadow: "4px 4px 15px rgba(0,0,0,0.8)",
+          }}
+        >
+          From your friendly neighborhood Multi-Ethnic Mental Health Organization
+        </h2>
         </div>
       </section>
 
