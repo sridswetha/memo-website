@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+import UserIcon from './UserIcon'; // Import your UserIcon component
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -13,8 +14,8 @@ const Navbar = () => {
     { name: 'HOME', href: '/' },
     { name: 'ABOUT', href: '/about' },
     { name: 'RESOURCES', href: '/resources' },
-    { name: 'CONTACT US', href: '/contact' }
-
+    { name: 'CONTACT US', href: '/contact' },
+    { name: 'SUBMIT A PIECE', href: '/submit' },
   ];
 
   const isActive = (href: string) => {
@@ -60,7 +61,7 @@ const Navbar = () => {
             />
           </Link>
 
-          {/* Desktop Navigation Links */}
+          {/* Desktop Navigation Links & User Icon */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {navItems.map((item) => (
               <Link
@@ -77,10 +78,15 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+
+            {/* Desktop User Icon */}
+            <UserIcon />
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          {/* Mobile Right Controls (User Icon + Hamburger Button) */}
+          <div className="md:hidden flex items-center space-x-3">
+            <UserIcon />
+
             <button
               onClick={toggleMobileMenu}
               className="text-[#F0F9FF] p-2 hover:bg-white/10 rounded-md transition-colors"
@@ -122,11 +128,11 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  onClick={closeMobileMenu}
                   className={`
-                    text-[#F0F9FF] font-bold text-xl py-3 px-4 rounded-md
-                    hover:bg-white/10 transition-all duration-200 ease-in-out
-                    ${isActive(item.href) ? 'bg-white/20 underline underline-offset-4' : ''}
+                    text-[#F0F9FF] font-bold text-sm lg:text-base
+                    hover:underline hover:underline-offset-4
+                    transition-all duration-200 ease-in-out
+                    ${isActive(item.href) ? 'underline underline-offset-4' : ''}
                   `}
                   style={{ fontFamily: 'Montserrat, sans-serif' }}
                 >

@@ -1,5 +1,5 @@
 // sampleArticles.ts
-import { Article } from '../components/ArticleTile';
+import { Article } from '../articles/[id]/components/ArticleTile';
 import wgss from './wgss.md?raw';
 export const sampleArticles: Article[] = [
   {

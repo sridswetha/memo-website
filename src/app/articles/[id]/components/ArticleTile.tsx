@@ -4,6 +4,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+export type ArticleStatus = 'pending' | 'approved' | 'rejected';
+
 export interface Article {
   id: string;
   title: string;
@@ -19,18 +21,19 @@ interface ArticleTileProps {
   article: Article;
 }
 
-const getCategoryColor = (category: string) => {
-  switch (category.toLowerCase()) {
+const getCategoryColor = (category?: string) => {
+  // If category is missing, default to an empty string to prevent crashing
+  const cat = category ? category.toLowerCase() : '';
+  
+  switch (cat) {
     case 'current issues':
       return 'bg-[#E47472]';
     case 'anecdotal':
-      return 'bg-[#3D5A94]';
-    case 'career':
-      return 'bg-[#2A8059]';
-    case 'creative works':
-      return 'bg-[#2C0A29]';
+      return 'bg-[#F2C94C]';
+    case 'events':
+      return 'bg-[#6FCF97]';
     default:
-      return 'bg-gray-500';
+      return 'bg-[#4C3442]'; // Fallback color
   }
 };
 
